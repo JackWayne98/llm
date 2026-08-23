@@ -1,0 +1,201 @@
+{
+  "empresa": {
+    "nombre": "NovaFibra",
+    "sector": "Telecomunicaciones: internet de fibra óptica y televisión por streaming",
+    "descripcion": "NovaFibra es un proveedor ficticio de internet de fibra óptica y televisión digital. Todos los datos de este archivo son inventados y existen únicamente con fines académicos.",
+    "cobertura": "Ciudad de México, Guadalajara, Monterrey, Puebla y Querétaro",
+    "sitio_web": "https://www.novafibra.example",
+    "telefono": "800 000 0000",
+    "correo_soporte": "soporte@novafibra.example"
+  },
+
+  "horarios": {
+    "soporte_telefonico": "Lunes a viernes de 8:00 a 21:00 h; sábados de 9:00 a 14:00 h (hora del centro de México)",
+    "soporte_chat": "Lunes a domingo de 7:00 a 23:00 h",
+    "soporte_prioritario": "24/7, exclusivo para clientes del plan Fibra Premium",
+    "instalaciones": "Lunes a sábado de 9:00 a 18:00 h",
+    "oficinas": "Lunes a viernes de 9:00 a 18:00 h"
+  },
+
+  "servicios": [
+    {
+      "id": "fibra_basica",
+      "nombre": "Fibra Básica",
+      "categoria": "Internet",
+      "precio_mensual_mxn": 399,
+      "velocidad": "300 Mbps de bajada / 150 Mbps de subida",
+      "incluye": [
+        "Router Wi-Fi 6 en comodato",
+        "Instalación estándar",
+        "Soporte en horario hábil",
+        "1 dirección IP dinámica"
+      ],
+      "ideal_para": "Hogares de 1 a 3 personas con navegación, teletrabajo y streaming en HD"
+    },
+    {
+      "id": "fibra_plus",
+      "nombre": "Fibra Plus",
+      "categoria": "Internet",
+      "precio_mensual_mxn": 599,
+      "velocidad": "600 Mbps simétricos",
+      "incluye": [
+        "Router Wi-Fi 6E en comodato",
+        "Instalación estándar",
+        "Soporte en horario hábil",
+        "1 repetidor de malla incluido",
+        "1 dirección IP dinámica"
+      ],
+      "ideal_para": "Hogares de 3 a 5 personas, videollamadas simultáneas y streaming en 4K"
+    },
+    {
+      "id": "fibra_premium",
+      "nombre": "Fibra Premium",
+      "categoria": "Internet",
+      "precio_mensual_mxn": 899,
+      "velocidad": "1 Gbps simétrico",
+      "incluye": [
+        "Router Wi-Fi 7 en comodato",
+        "Instalación prioritaria en 24 h",
+        "Soporte prioritario 24/7",
+        "2 repetidores de malla incluidos",
+        "1 dirección IP fija",
+        "Suscripción a NovaTV sin costo adicional"
+      ],
+      "ideal_para": "Hogares grandes, creadores de contenido, gaming competitivo y oficinas pequeñas"
+    },
+    {
+      "id": "novatv",
+      "nombre": "NovaTV",
+      "categoria": "Televisión",
+      "precio_mensual_mxn": 149,
+      "velocidad": null,
+      "incluye": [
+        "120 canales en vivo",
+        "Catálogo de series y películas bajo demanda",
+        "Hasta 4 pantallas simultáneas",
+        "Grabación en la nube de 50 horas"
+      ],
+      "ideal_para": "Complemento de cualquier plan de internet; incluido sin costo en Fibra Premium"
+    },
+    {
+      "id": "novafibra_negocios",
+      "nombre": "NovaFibra Negocios",
+      "categoria": "Empresarial",
+      "precio_mensual_mxn": 1799,
+      "velocidad": "1 Gbps simétrico con ancho de banda garantizado",
+      "incluye": [
+        "5 direcciones IP fijas",
+        "Acuerdo de nivel de servicio del 99.7 %",
+        "Soporte prioritario 24/7 con ejecutivo asignado",
+        "Respaldo por red móvil ante caídas"
+      ],
+      "ideal_para": "Comercios, consultorios y oficinas con operación crítica"
+    }
+  ],
+
+  "cargos_adicionales": [
+    {
+      "concepto": "Instalación estándar",
+      "monto_mxn": 499,
+      "nota": "Sin costo al contratar con permanencia de 12 meses"
+    },
+    {
+      "concepto": "Cambio de domicilio",
+      "monto_mxn": 350,
+      "nota": "Sujeto a disponibilidad de cobertura en la nueva dirección"
+    },
+    {
+      "concepto": "Reposición de router por daño",
+      "monto_mxn": 1200,
+      "nota": "No aplica si el equipo falla por defecto de fábrica"
+    },
+    {
+      "concepto": "Repetidor de malla adicional",
+      "monto_mxn": 799,
+      "nota": "Compra única, incluye garantía de 12 meses"
+    }
+  ],
+
+  "politicas": [
+    {
+      "id": "garantia_satisfaccion",
+      "titulo": "Garantía de satisfacción",
+      "detalle": "Si cancelas dentro de los primeros 30 días naturales tras la instalación, se reembolsa el 100 % de la mensualidad y del costo de instalación. El equipo en comodato debe devolverse en buen estado."
+    },
+    {
+      "id": "cancelacion",
+      "titulo": "Cancelación del servicio",
+      "detalle": "La cancelación se solicita con 15 días naturales de anticipación. Si existe permanencia vigente de 12 meses, se cobra una penalización proporcional a los meses restantes, con un máximo de 1500 MXN."
+    },
+    {
+      "id": "reembolsos",
+      "titulo": "Reembolsos",
+      "detalle": "Los reembolsos se procesan en un plazo de 5 a 10 días hábiles al mismo método de pago original. Los montos superiores a 2000 MXN requieren autorización de un supervisor."
+    },
+    {
+      "id": "cambio_plan",
+      "titulo": "Cambio de plan",
+      "detalle": "El cambio a un plan superior se aplica de inmediato y se prorratea en el siguiente recibo. El cambio a un plan inferior se aplica hasta el siguiente periodo de facturación y solo una vez cada 3 meses."
+    },
+    {
+      "id": "facturacion",
+      "titulo": "Facturación y pagos",
+      "detalle": "El corte es el día 25 de cada mes y el pago vence 10 días después. Tras 5 días de atraso el servicio se reduce a 5 Mbps; tras 20 días se suspende por completo. La reconexión no tiene costo."
+    },
+    {
+      "id": "privacidad",
+      "titulo": "Privacidad y datos personales",
+      "detalle": "NovaFibra no solicita contraseñas ni datos completos de tarjetas por chat o teléfono. Cualquier gestión que implique datos sensibles se realiza en el portal de cliente autenticado."
+    },
+    {
+      "id": "fallas",
+      "titulo": "Fallas y compensaciones",
+      "detalle": "Ante una interrupción atribuible a NovaFibra superior a 24 horas continuas, se compensa con el equivalente proporcional a los días sin servicio en el siguiente recibo. La compensación se solicita en un plazo máximo de 30 días."
+    }
+  ],
+
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Cuánto tarda la instalación?",
+      "respuesta": "Entre 3 y 5 días hábiles para los planes Básica y Plus. En Fibra Premium la instalación es prioritaria y se realiza dentro de las 24 horas siguientes a la contratación."
+    },
+    {
+      "pregunta": "¿El router es mío o es en comodato?",
+      "respuesta": "El router se entrega en comodato: sigue siendo propiedad de NovaFibra y debe devolverse al cancelar el servicio. Los repetidores adicionales comprados aparte sí son propiedad del cliente."
+    },
+    {
+      "pregunta": "¿Puedo contratar sin permanencia?",
+      "respuesta": "Sí. Sin permanencia no hay penalización por cancelar, pero el costo de instalación de 499 MXN no se bonifica."
+    },
+    {
+      "pregunta": "Mi internet va lento, ¿qué hago?",
+      "respuesta": "Reinicia el router desconectándolo 30 segundos, verifica que no haya descargas activas y prueba la velocidad conectando por cable. Si con cable obtienes menos del 70 % de la velocidad contratada, se genera un reporte técnico."
+    },
+    {
+      "pregunta": "¿Qué hago si se me olvidó la contraseña del Wi-Fi?",
+      "respuesta": "La contraseña predeterminada está impresa en la etiqueta inferior del router. Si la cambiaste y no la recuerdas, puedes restablecerla desde el portal de cliente o presionando el botón de reinicio del router durante 10 segundos."
+    },
+    {
+      "pregunta": "¿Puedo pausar mi servicio temporalmente?",
+      "respuesta": "Sí, hasta 2 meses por año calendario. Durante la pausa se cobra una cuota de mantenimiento de 99 MXN mensuales."
+    },
+    {
+      "pregunta": "¿NovaTV funciona sin internet de NovaFibra?",
+      "respuesta": "No. NovaTV solo está disponible como complemento de un plan de internet de NovaFibra activo."
+    },
+    {
+      "pregunta": "¿Cómo consulto mi saldo o mi recibo?",
+      "respuesta": "Desde el portal de cliente en el sitio web o desde la aplicación móvil NovaFibra, en la sección Facturación."
+    }
+  ],
+
+  "criterios_escalamiento": [
+    "Reclamaciones legales, demandas o menciones de la autoridad reguladora",
+    "Solicitudes de reembolso superiores a 2000 MXN",
+    "Disputas sobre cargos que el cliente considera fraudulentos",
+    "Cancelaciones con penalización que el cliente rechaza",
+    "Cualquier gestión que requiera modificar datos personales o bancarios",
+    "Situaciones en las que el cliente manifiesta enfado sostenido o pide expresamente hablar con una persona",
+    "Cualquier consulta cuya respuesta no esté contenida en esta base de conocimiento"
+  ]
+}

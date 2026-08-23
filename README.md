@@ -1,3 +1,21 @@
+# Actividad 7 — Proyectos con modelos de lenguaje
+
+Este repositorio reúne los proyectos de la actividad de LLM. Cada uno vive en su
+propia carpeta y es independiente del otro.
+
+| Proyecto | Carpeta | Modelo | Qué hace |
+|---|---|---|---|
+| Asistente de escritura | [`asistente_escritura/`](./asistente_escritura) | Google Gemini | Corrige la redacción, sugiere continuaciones y redacta textos desde cero |
+| **Atención al cliente** | [**`atencion_cliente/`**](./atencion_cliente) | OpenAI `gpt-5.6-luna` | Chatbot de soporte con base de conocimiento, acciones simuladas y escalamiento a un agente humano |
+
+Las instrucciones completas de instalación y ejecución de cada proyecto están en
+su propio README:
+
+- [`atencion_cliente/README.md`](./atencion_cliente/README.md)
+- La documentación del asistente de escritura es la que continúa más abajo.
+
+---
+
 # Asistente de Escritura Automática ✍️
 
 Este es un proyecto sencillo de un Asistente de Escritura impulsado por Inteligencia Artificial utilizando **Streamlit** para la interfaz gráfica y **Google Gemini API** como modelo de lenguaje subyacente.

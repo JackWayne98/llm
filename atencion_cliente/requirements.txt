@@ -1,0 +1,7 @@
+# Combinación verificada: Python 3.11.9 · streamlit 1.62.0 · openai 3.3.1 · python-dotenv 1.x
+# El rango de openai se acota a la major 3 porque es la que expone la Responses API
+# con la firma usada en core/chatbot.py (model, input, instructions, max_output_tokens).
+
+streamlit>=1.40,<2
+openai>=3.3,<4
+python-dotenv>=1.0,<2
